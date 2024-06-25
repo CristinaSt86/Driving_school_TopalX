@@ -6,17 +6,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "custom-img": "url('/src/images/bgZid.jpg')",
+        "custom-home": "url('/src/images/bgHome2.jpg')"
+      },
       colors: {
-        primary: "#374957",
-        secondary: "#face25",
-
+        primary: "rgba(55, 73, 87, 0.9)",
+        secondary: "rgba(250, 206, 37, 1)",
+        blue: "rgba(149, 202, 234, 0.8)",
+        textColor: "rgba(51, 51, 51, 1)",
       },
       fontFamily: {
-        sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
       },
-      backgroundImage: {
-        // 'about-pattern':  "url('/src/images/semneCirculatie.jpg')",
-      }
     },
   },
   plugins: [],
